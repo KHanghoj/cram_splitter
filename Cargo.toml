@@ -1,0 +1,11 @@
+[package]
+name = "cram_splitter"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+clap = { version = "4.4", features = ["derive"] }
+noodles = { version = "0.108", features = ["cram", "sam", "fasta", "bgzf"] }
+csv = "1.4.0"
+serde = { version = "1.0.228", features = ["derive"] }
+# noodles = {git = "https://github.com/zaeleus/noodles.git", rev = "1a42adf", features = ["sam", "cram", "fasta"]}
